@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COOKBOOK - Main Page</title>
+  <style>
+    @font-face {
+      font-family: MON;
+      src: url(Montserrat-Regular.ttf);
+    }
+    /* Define the color palette */
+    :root {
+      --primary-color: #ff4057;
+      --secondary-color: #282634;
+    }
+
+    /* Global styling */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: MON;;
+      background-color: var(--secondary-color);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    header {
+      background-color: var(--primary-color);
+      padding: 20px;
+      color: white;
+    }
+
+    .logo {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50%;
+    }
+    a{
+      text-decoration: none;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    /* Body */
+    main {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      border-style:outset;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .card p {
+      margin-top: 20px;
+    }
+
+    .card button {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+      background-color: var(--primary-color);
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    center{
+        color: white;
+    }
+    .socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socials img {
+    margin-right: 10px;
+}
+    /* Adjustments for the footer */
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <center>This page is developed using HTML and CSS. Developed by <br> <h2><b><em>Gutha Sumanth Reddy</em></b></h2> and <h2><b><em>Chidipothu Sai Nikhil</em></b></h2> </b> </em></center>
+    <hr>
+    <div class="card">
+        
+        <p>Gutha Sumanth Reddy</p>
+        <p>Connect with Sumanth on Social media</p>
+        <div class="socials">
+        <a href="https://www.instagram.com/sumanth_reddy_77/"><img src="instagram.png" alt="inst" width="40px"></a>
+        <a href="https://www.linkedin.com/in/sumanth-reddy-664086231/"><img src="linkedin.png" alt="linkedin" width="40px"></a>
+        <a href="mailto:sumanthreddy7702@gmail.com"><img src="gmail.png" alt="mail"width="40px"></a>
+        </div>
+      </div>
+      <div class="card">
+        
+        <p>Chidipothu Sai Nikhil</p>
+        <p>Connect with Nikhil on Social media</p>
+        <div class="socials">
+        <a href="https://www.instagram.com/sai.nikhil._/"><img src="instagram.png" alt="inst" width="40px"></a>
+        <a href="https://www.linkedin.com/in/sai-nikhil-a10499231/"><img src="linkedin.png" alt="linkedin" width="40px"></a>
+        <a href="mailto:sainikhil1024@gmail.com"><img src="gmail.png" alt="mail"width="40px"></a>
+        </div>
+      </div>
+  </main>
+
+ 
+</body>
+</html>
